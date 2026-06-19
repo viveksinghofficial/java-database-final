@@ -1,7 +1,7 @@
 package com.project.code.Model;
 
-
 public class PurchaseProductDTO {
+
     private Long id;
     private String name;
     private Double price;
@@ -9,7 +9,6 @@ public class PurchaseProductDTO {
     private Double total;
 
     // Getters and Setters
-
     public Long getId() {
         return id;
     }

@@ -1,9 +1,9 @@
 package com.project.code.Model;
 
-
 import java.util.List;
 
 public class PlaceOrderRequestDTO {
+
     private Long storeId;
     private String customerName;
     private String customerEmail;
@@ -13,7 +13,6 @@ public class PlaceOrderRequestDTO {
     private Double totalPrice;
 
     // Getters and Setters
-
     public Long getStoreId() {
         return storeId;
     }
